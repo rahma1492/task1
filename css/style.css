@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 2000px;
+    background-image: url(../images/road\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div1{
+    width: 400px;
+    height: 250px;
+    border-radius: 50%;
+    background-image:url(../images/car1.jpg);
+    background-size: cover;
+    background-position: center;
+    left: 40px;
+    margin-top: 20px;
+    
+    animation-name: change ;
+    animation-duration: 2s;
+    position: absolute;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+.div2{
+    width: 400px;
+    height: 250px;
+    background-image:url(../images/car2.jpg);
+    background-size: cover;
+    border-radius:50%;
+    background-position: center;
+    margin-top: 300px;
+    right: 50px;
+    
+    animation-name: change ;
+    animation-duration: 2s;
+    
+    position: absolute;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    animation-direction: reverse;
+}
+.div3{
+    width: 400px;
+    height: 250px;
+    background-image:url(../images/car3.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    background-position: center;
+    margin-top: 590px;
+    
+    animation-name: change ;
+    animation-duration: 2s;
+    
+    position: absolute;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+}
+.div4{
+    width: 400px;
+    height: 250px;
+    background-image:url(../images/car4.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    background-position: center;
+    margin-top: 890px;
+    right: 50px;
+    
+    animation-name: change ;
+    animation-duration: 2s;
+    
+    position: absolute;
+    animation-fill-mode: forwards;
+    animation-delay: 9s;
+    animation-direction: reverse;
+}
+.div5{
+    width: 400px;
+    height: 250px;
+    background-image:url(../images/car5.jpg);
+    background-size: cover;
+    border-radius:50%;
+    background-position: center;
+    margin-top: 1190px;
+    
+    animation-name: change ;
+    animation-duration: 2s;
+    
+    position: absolute;
+    animation-fill-mode: forwards;
+    animation-delay: 12s;
+}
+
+.div6{
+    width: 400px;
+    height: 250px;
+    background-image:url(../images/car6.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    background-position: center;
+    margin-top: 1490px;
+    right: 50px;
+    
+    animation-name: change ;
+    animation-duration: 2s;
+    
+    position: absolute;
+    animation-fill-mode: forwards;
+    animation-delay: 15s;
+    animation-direction: reverse;
+}
+@keyframes change {
+    0% {left: 40px;}
+    100% { left:900px;}
+}
+
+
